@@ -1,0 +1,15 @@
+C:\Users\Heetae\source\repos\(책)C#으로온라인게임서버만들기\공부\코드만\CSampleServer-CSampleClient\CSampleClient\obj\Debug\netstandard2.1\CSampleClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Heetae\source\repos\(책)C#으로온라인게임서버만들기\공부\코드만\CSampleServer-CSampleClient\CSampleClient\obj\Debug\netstandard2.1\CSampleClient.AssemblyInfoInputs.cache
+C:\Users\Heetae\source\repos\(책)C#으로온라인게임서버만들기\공부\코드만\CSampleServer-CSampleClient\CSampleClient\obj\Debug\netstandard2.1\CSampleClient.AssemblyInfo.cs
+C:\Users\Heetae\source\repos\(책)C#으로온라인게임서버만들기\공부\코드만\CSampleServer-CSampleClient\CSampleClient\obj\Debug\netstandard2.1\CSampleClient.csproj.CoreCompileInputs.cache
+C:\Users\Heetae\source\repos\(책)C#으로온라인게임서버만들기\공부\코드만\CSampleServer-CSampleClient\CSampleClient\obj\Debug\netstandard2.1\CSampleClient.sourcelink.json
+C:\Users\Heetae\source\repos\(책)C#으로온라인게임서버만들기\공부\코드만\CSampleServer-CSampleClient\CSampleClient\obj\Debug\netstandard2.1\CSampleClient.csproj.AssemblyReference.cache
+C:\Users\Heetae\source\repos\(책)C#으로온라인게임서버만들기\공부\코드만\CSampleServer-CSampleClient\CSampleClient\bin\Debug\netstandard2.1\FreeNet.deps.json
+C:\Users\Heetae\source\repos\(책)C#으로온라인게임서버만들기\공부\코드만\CSampleServer-CSampleClient\CSampleClient\bin\Debug\netstandard2.1\CSampleClient.deps.json
+C:\Users\Heetae\source\repos\(책)C#으로온라인게임서버만들기\공부\코드만\CSampleServer-CSampleClient\CSampleClient\bin\Debug\netstandard2.1\CSampleClient.dll
+C:\Users\Heetae\source\repos\(책)C#으로온라인게임서버만들기\공부\코드만\CSampleServer-CSampleClient\CSampleClient\bin\Debug\netstandard2.1\CSampleClient.pdb
+C:\Users\Heetae\source\repos\(책)C#으로온라인게임서버만들기\공부\코드만\CSampleServer-CSampleClient\CSampleClient\bin\Debug\netstandard2.1\FreeNet.dll
+C:\Users\Heetae\source\repos\(책)C#으로온라인게임서버만들기\공부\코드만\CSampleServer-CSampleClient\CSampleClient\bin\Debug\netstandard2.1\FreeNet.pdb
+C:\Users\Heetae\source\repos\(책)C#으로온라인게임서버만들기\공부\코드만\CSampleServer-CSampleClient\CSampleClient\obj\Debug\netstandard2.1\CSampleC.F821A8E3.Up2Date
+C:\Users\Heetae\source\repos\(책)C#으로온라인게임서버만들기\공부\코드만\CSampleServer-CSampleClient\CSampleClient\obj\Debug\netstandard2.1\CSampleClient.dll
+C:\Users\Heetae\source\repos\(책)C#으로온라인게임서버만들기\공부\코드만\CSampleServer-CSampleClient\CSampleClient\obj\Debug\netstandard2.1\CSampleClient.pdb

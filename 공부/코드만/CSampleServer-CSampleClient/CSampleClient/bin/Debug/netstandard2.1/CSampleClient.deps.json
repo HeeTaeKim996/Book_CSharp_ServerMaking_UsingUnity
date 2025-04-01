@@ -1,0 +1,40 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "CSampleClient/1.0.0": {
+        "dependencies": {
+          "FreeNet": "1.0.0"
+        },
+        "runtime": {
+          "CSampleClient.dll": {}
+        }
+      },
+      "FreeNet/1.0.0": {
+        "runtime": {
+          "FreeNet.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CSampleClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FreeNet/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
