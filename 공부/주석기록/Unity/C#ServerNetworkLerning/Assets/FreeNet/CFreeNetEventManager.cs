@@ -1,79 +1,66 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 using FreeNet;
+using System.Collections.Generic;
 
 namespace FreeNetUnity
 {
-    public enum NETWORK_EVENT : byte
-    {
-        connected,
-        disconnected,
-        end
-    }
-
     public class CFreeNetEventManager
     {
-        object cs_event;
-        Queue<NETWORK_EVENT> network_events;
-
-        Queue<CPacket> network_message_events;
-
+        private Queue<NETWORK_EVENT> network_events;
+        private Queue<CPacket> network_message;
+        private object cs_networkQueue;
 
         public CFreeNetEventManager()
         {
-            this.cs_event = new object();
-            this.network_events = new Queue<NETWORK_EVENT>();
-            this.network_message_events = new Queue<CPacket>();
+            network_events = new Queue<NETWORK_EVENT>();
+            network_message = new Queue<CPacket>();
+            cs_networkQueue = new object();
+        }
+
+
+        public bool has_networkEvent()
+        {
+            lock (cs_networkQueue)
+            {
+                return network_events.Count > 0;
+            }
+        }
+        public void enqueue_networkEvent(NETWORK_EVENT networkEvent)
+        {
+            lock (cs_networkQueue)
+            {
+                network_events.Enqueue(networkEvent);
+            }
+        }
+        public NETWORK_EVENT dequeue_networkEvent()
+        {
+            lock (cs_networkQueue)
+            {
+                return network_events.Dequeue();
+            }
         }
 
 
 
-        public void enqueue_network_event(NETWORK_EVENT event_type)
+        public bool has_networkMessage()
         {
-            lock (this.cs_event)
+            lock (cs_networkQueue)
             {
-                this.network_events.Enqueue(event_type);
+                return network_message.Count > 0;
             }
         }
-        public NETWORK_EVENT dequeue_network_event()
+        public void enqueue_networkMessage(CPacket msg)
         {
-            lock (cs_event)
+            lock (cs_networkQueue)
             {
-                return this.network_events.Dequeue();
+                network_message.Enqueue(msg);
             }
         }
-        public bool has_event()
+        public CPacket dequeue_networkMessage()
         {
-            lock (this.cs_event)
+            lock (cs_networkQueue)
             {
-                return this.network_events.Count > 0;
-            }
-        }
-
-
-        public void enqueue_network_message(CPacket buffer)
-        {
-            lock (cs_event)
-            {
-                this.network_message_events.Enqueue(buffer);
-            }
-        }
-        public CPacket dequeue_network_message()
-        {
-            lock (cs_event)
-            {
-                return this.network_message_events.Dequeue();
-            }
-        }
-        public bool has_message()
-        {
-            lock (this.cs_event)
-            {
-                return this.network_message_events.Count > 0;
+                return network_message.Dequeue();
             }
         }
     }
 }
-
-
