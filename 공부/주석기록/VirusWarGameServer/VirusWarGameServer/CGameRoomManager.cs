@@ -14,11 +14,11 @@ namespace VirusWarGameServer
         public void create_room(CGameUser user1, CGameUser user2)
         {
             CGameRoom battleRoom = new CGameRoom();
-            battleRoom.enter_gameroom(user1, user2);
+            battleRoom.enter_gameRoom(user1, user2);
 
             this.rooms.Add(battleRoom);
         }
-        public void remove_room(cGameRoom room)
+        public void remove_room(CGameRoom room)
         {
             room.destroy();
             this.rooms.Remove(room);

@@ -19,9 +19,9 @@ namespace VirusWarGameServer
 
         void IPeer.on_message(Const<byte[]> buffer)
         {
-            byte[] clone = new byte[1024];
-            Array.Copy(buffer.Value, clone, buffer.Value.Length);
-            CPacket msg = new CPacket(clone, this); //@@@@@@@@@@@@@@@@@@@@@@@@@ ???????????????????????  CPacket.Create을 사용 안하는 이유가 도대체 뭘까. 이거 또 CPacket.destroy처리도 안할 것 같은데, 뭐하러 CPakcetBufferManager를 사용하는 걸까
+            CPacket msg = new CPacket(buffer.Value, this);    
+            //@@@@@@@@@@@@@@@@@@@@@@@@@ 코드를 전체적으로 보면, 메세지를 송신 할 때에는 CPacket.create - CPacket.destroy 로 CPacket을 오브젝트 풀로 관리하여 사용한다. 반면 메세지 수신 때에는 CPacket을 만들고, 작업 완료후 GC가 메모리 수거하게 한다. 
+            // 여전히 확실한 이유를 모르겠다. 추정하는 건, 메모리 풀에서 사용하는 CPacket의 buffer는 byte[1024] 이다. 수신 때에는 그보다 크거나, 적은 buffer가 올 수 있기 때문에, 최적화된 크기의 byte[]로 수신하기 위해, 오브젝트 풀을 사용하지 않는 건가 싶다.
             Program.game_main.enqueue_packet(msg, this); 
         }
 
@@ -53,7 +53,7 @@ namespace VirusWarGameServer
                     break;
                 case PROTOCOL.LOADING_COMPLETED:
                     {
-                        this.battle_room.loading_completed(player);
+                        this.battle_room.loading_complete(player);
                     }
                     break;
                 case PROTOCOL.MOVING_REQ:

@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Threading;
 using System.Xml;
 using FreeNet;
 
@@ -7,7 +9,7 @@ namespace VirusWarGameServer
     class Program 
     {
         static List<CGameUser> userList;
-        public static CGameServer game_main = new CGameUser();
+        public static CGameServer game_main = new CGameServer();
 
         static void Main(string[] args)
         {
@@ -42,7 +44,7 @@ namespace VirusWarGameServer
             lock (userList)
             {
                 userList.Remove(user);
-                game_main.User_disconnect(user);
+                game_main.user_disconnected(user);
 
                 CGameRoom room = user.battle_room;
                 if(room != null)

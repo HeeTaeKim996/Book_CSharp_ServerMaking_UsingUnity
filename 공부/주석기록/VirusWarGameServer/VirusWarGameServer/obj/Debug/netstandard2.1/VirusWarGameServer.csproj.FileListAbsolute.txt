@@ -1,0 +1,14 @@
+C:\Users\Heetae\source\repos\(책)C#으로온라인게임서버만들기\공부\주석기록\VirusWarGameServer\VirusWarGameServer\obj\Debug\netstandard2.1\VirusWarGameServer.csproj.AssemblyReference.cache
+C:\Users\Heetae\source\repos\(책)C#으로온라인게임서버만들기\공부\주석기록\VirusWarGameServer\VirusWarGameServer\obj\Debug\netstandard2.1\VirusWarGameServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Heetae\source\repos\(책)C#으로온라인게임서버만들기\공부\주석기록\VirusWarGameServer\VirusWarGameServer\obj\Debug\netstandard2.1\VirusWarGameServer.AssemblyInfoInputs.cache
+C:\Users\Heetae\source\repos\(책)C#으로온라인게임서버만들기\공부\주석기록\VirusWarGameServer\VirusWarGameServer\obj\Debug\netstandard2.1\VirusWarGameServer.AssemblyInfo.cs
+C:\Users\Heetae\source\repos\(책)C#으로온라인게임서버만들기\공부\주석기록\VirusWarGameServer\VirusWarGameServer\obj\Debug\netstandard2.1\VirusWarGameServer.csproj.CoreCompileInputs.cache
+C:\Users\Heetae\source\repos\(책)C#으로온라인게임서버만들기\공부\주석기록\VirusWarGameServer\VirusWarGameServer\obj\Debug\netstandard2.1\VirusWarGameServer.sourcelink.json
+C:\Users\Heetae\source\repos\(책)C#으로온라인게임서버만들기\공부\주석기록\VirusWarGameServer\VirusWarGameServer\bin\Debug\netstandard2.1\VirusWarGameServer.deps.json
+C:\Users\Heetae\source\repos\(책)C#으로온라인게임서버만들기\공부\주석기록\VirusWarGameServer\VirusWarGameServer\bin\Debug\netstandard2.1\VirusWarGameServer.dll
+C:\Users\Heetae\source\repos\(책)C#으로온라인게임서버만들기\공부\주석기록\VirusWarGameServer\VirusWarGameServer\bin\Debug\netstandard2.1\VirusWarGameServer.pdb
+C:\Users\Heetae\source\repos\(책)C#으로온라인게임서버만들기\공부\주석기록\VirusWarGameServer\VirusWarGameServer\bin\Debug\netstandard2.1\FreeNet.dll
+C:\Users\Heetae\source\repos\(책)C#으로온라인게임서버만들기\공부\주석기록\VirusWarGameServer\VirusWarGameServer\bin\Debug\netstandard2.1\FreeNet.pdb
+C:\Users\Heetae\source\repos\(책)C#으로온라인게임서버만들기\공부\주석기록\VirusWarGameServer\VirusWarGameServer\obj\Debug\netstandard2.1\VirusWar.2F09E83B.Up2Date
+C:\Users\Heetae\source\repos\(책)C#으로온라인게임서버만들기\공부\주석기록\VirusWarGameServer\VirusWarGameServer\obj\Debug\netstandard2.1\VirusWarGameServer.dll
+C:\Users\Heetae\source\repos\(책)C#으로온라인게임서버만들기\공부\주석기록\VirusWarGameServer\VirusWarGameServer\obj\Debug\netstandard2.1\VirusWarGameServer.pdb

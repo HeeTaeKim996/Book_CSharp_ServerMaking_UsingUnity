@@ -50,7 +50,7 @@ public class CBattleRoom : MonoBehaviour {
 	GUIFUNC draw;
 
 	// 승리한 플레이어 인덱스.
-	// 무승부일때는 byte.MaxValue가 들어간다.
+	// 무승부일때는 byte.MaxV	alue가 들어간다.
 	byte win_player_index;
 
 	// 점수를 표시하기 위한 이미지 숫자 객체.
